@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">All</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7dd2b080-ecc1-45c1-b2b5-220149ffd97f</ProjectGuid>
+    <OutputType>msi</OutputType>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>LionCraft.NetworkCapture.Installer.aip</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <IsWindowsApplication>True</IsWindowsApplication>
+    <AssemblyName>LionCraft.NetworkCapture.Installer</AssemblyName>
+    <Name>LionCraft.NetworkCapture.Installer</Name>
+    <RootNamespace>LionCraft.NetworkCapture.Installer</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'All' ">
+    <DebugSymbols>false</DebugSymbols>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="LionCraft.NetworkCapture.Installer.aip">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LionCraft.NetworkCapture.Client\LionCraft.NetworkCapture.Client.csproj">
+      <Name>LionCraft.NetworkCapture.Client</Name>
+      <Project>{584bb975-3ef4-49e3-85f4-6b3690cc531c}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+    <ProjectReference Include="..\LionCraft.NetworkCapture.GUI\LionCraft.NetworkCapture.GUI.csproj">
+      <Name>LionCraft.NetworkCapture.GUI</Name>
+      <Project>{05aa15e3-f1ef-406d-a8cc-e036d077dd3b}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Caphyon\Advanced Installer\AdvInstExtTasks.Targets" />
+</Project>

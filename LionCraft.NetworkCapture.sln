@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionCraft.NetworkCapture.Core", "LionCraft.NetworkCapture.Core\LionCraft.NetworkCapture.Core.csproj", "{7E1D7510-D0D1-4AF6-AE7E-A354A3B698B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionCraft.NetworkCapture.Client", "LionCraft.NetworkCapture.Client\LionCraft.NetworkCapture.Client.csproj", "{584BB975-3EF4-49E3-85F4-6B3690CC531C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionCraft.NetworkCapture.GUI", "LionCraft.NetworkCapture.GUI\LionCraft.NetworkCapture.GUI.csproj", "{05AA15E3-F1EF-406D-A8CC-E036D077DD3B}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "LionCraft.NetworkCapture.Installer", "LionCraft.NetworkCapture.Installer\LionCraft.NetworkCapture.Installer.aiproj", "{7DD2B080-ECC1-45C1-B2B5-220149FFD97F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1D7510-D0D1-4AF6-AE7E-A354A3B698B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1D7510-D0D1-4AF6-AE7E-A354A3B698B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1D7510-D0D1-4AF6-AE7E-A354A3B698B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1D7510-D0D1-4AF6-AE7E-A354A3B698B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584BB975-3EF4-49E3-85F4-6B3690CC531C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584BB975-3EF4-49E3-85F4-6B3690CC531C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584BB975-3EF4-49E3-85F4-6B3690CC531C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584BB975-3EF4-49E3-85F4-6B3690CC531C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AA15E3-F1EF-406D-A8CC-E036D077DD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA15E3-F1EF-406D-A8CC-E036D077DD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA15E3-F1EF-406D-A8CC-E036D077DD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA15E3-F1EF-406D-A8CC-E036D077DD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD2B080-ECC1-45C1-B2B5-220149FFD97F}.Debug|Any CPU.ActiveCfg = All
+		{7DD2B080-ECC1-45C1-B2B5-220149FFD97F}.Debug|Any CPU.Build.0 = All
+		{7DD2B080-ECC1-45C1-B2B5-220149FFD97F}.Release|Any CPU.ActiveCfg = All
+		{7DD2B080-ECC1-45C1-B2B5-220149FFD97F}.Release|Any CPU.Build.0 = All
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
